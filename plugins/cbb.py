@@ -43,12 +43,12 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         )
     elif data == "premium":
         await query.message.edit_text(
-            text=f"<b>Premium Benefits & Perks\nDirect Channel Links, No Ad Links\nSpecial Access In Events\n\nPricing Rates\n7 Days - INR 39\n15 Days - INR 69\n1 Month - INR 89\n3 Months - INR 249\n6 Months - INR 479\n12 Month - INR 949\n\nWant To Buy?\nPay Using Crypto\nSend Screenshot to @DoraShin_Hlo\n\nWe Have Limited Seats For Premium Users</b>",
+            text=f"<b>Premium Benefits & Perks\nDirect Channel Links, No Ad Links\nSpecial Access In Events\n\nPricing Rates\n7 Days - INR 39\n15 Days - INR 69\n1 Month - INR 99\n3 Months - INR 249\n6 Months - INR 479\n12 Month - INR 949\n\nWant To Buy?\nPay Using Crypto\nSend Screenshot to @Karasu_07\n\nWe Have Limited Seats For Premium Users</b>",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/Adult_Flux_ProBot"),
+                        InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/Karasu_07"),
                         InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/adult_Flux")
                     ],
                     [
